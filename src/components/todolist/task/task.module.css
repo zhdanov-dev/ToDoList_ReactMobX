@@ -1,0 +1,50 @@
+.list__task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 8px 18px 8px 18px;
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #bdbdbd;
+    border-radius: 7px;
+}
+
+.list__check {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 8px 18px 8px 18px;
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #bdbdbd;
+    border-radius: 7px;
+}
+
+.list__task:hover .buttons {
+    opacity: .5;
+}
+
+.task__buttons {
+    display: flex;
+}
+
+.buttons {
+    display: flex;
+    background-color: white;
+    padding-right: 5px;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: .2s;
+}
+
+.buttons:hover {
+    opacity: 1 !important;
+}
