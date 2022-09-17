@@ -1,8 +1,7 @@
-import './App.css';
+import './App.scss';
 import { Header } from './components/header/header';
 import Input from './components/input/input';
 import TodoList from './components/todolist/todolist';
-import { Select } from './components/select/select';
 import { observer } from 'mobx-react-lite';
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
       <Header/>
       <main className='app__main'>
         <Input/>
-        <Select/>
         <TodoList/>
       </main>
     </div>

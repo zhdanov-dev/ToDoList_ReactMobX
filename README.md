@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# ToDo List. Список ваших задач, реализованый на React.
+
+Если Вы используете данный проект, для начала необходимо установить зависимости:
+
+### npm install
+
+Для запуска, в директории с проектом используется команда:
+
+### npm start
+
+Приложение запуститься в режиме разработки по адресу http://localhost:3000. 
+
+Для дополнительной информации можете прочитать документацию react-creete-app.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
